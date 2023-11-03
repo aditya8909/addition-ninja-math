@@ -204,7 +204,7 @@ statusbar = statusbars.create(50, 4, StatusBarKind.Energy)
 statusbar.attachToSprite(mySprite)
 statusbar.setLabel("energy")
 game.showLongText("you have to go to the end while colecting some coins but you also have to keep an eye on your energy if it rans out you will die solve some queestionns to refill your energy", DialogLayout.Bottom)
-tiles.placeOnTile(mySprite, tiles.getTileLocation(18, 22))
+tiles.placeOnTile(mySprite, tiles.getTileLocation(23, 56))
 if (mySprite.vx > 0) {
     mySprite.setImage(img`
         . . . . f f f f f . . . 
